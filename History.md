@@ -1,3 +1,9 @@
+
+2.0.4 / 2015-12-24
+==================
+
+  * increase mongodb
+
 2.0.1 / 2015-10-09
 ==================
  * Return full admin class rather than just admin collection when calling `.admin()` #177
@@ -9,7 +15,7 @@
  * `utils.makeSkinClass()`'s optional third parameter `isSingle` is removed.
  * `db.collection()` no longer accepts a callback. Use `var collection = db.collection('collname');` instead.
 
-0.6.1 / 2013-11-24 
+0.6.1 / 2013-11-24
 ==================
 
   * Merge pull request #122 from Philmod/older-mongodb
@@ -19,7 +25,7 @@
   * fix typo: this.hit -> this.hint
   * Vastly improving the documentation around the mongoskin.db method
 
-0.6.0 / 2013-07-16 
+0.6.0 / 2013-07-16
 ==================
 
   * changed version in package.json to 1.3.x for mongodb
@@ -30,7 +36,7 @@
   * Documentation improvements
   * add 0.9 version test
 
-0.5.0 / 2012-12-29 
+0.5.0 / 2012-12-29
 ==================
 
   * fixed unsafe mode warnning log
@@ -87,6 +93,6 @@
 ==================
   * add SkinCollection.removeById
 
-0.1.2 / 2011-04-30 
+0.1.2 / 2011-04-30
 ==================
   * add mongoskin.router
